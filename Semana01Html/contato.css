@@ -27,10 +27,9 @@ nav a {
 	font-size: 22px;
 	text-decoration: none;
 }
-
 nav a:hover {
-	color: #C78C19;
-	text-decoration: underline;
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 .produtos {
@@ -47,25 +46,21 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
-
 .produtos li:hover {
-	border-color: #C78C19;
+    border-color: #C78C19;
 }
-
 .produtos li:active {
-	border-color: #088C19;	
+    border-color: #088C19;    
 }
-
-.produtos li:hover h2 {
-	font-size: 34px;
-}
-
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
 }
 
 .produto-descricao {
@@ -79,39 +74,34 @@ nav a:hover {
 }
 
 footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
 .copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
-
 main {
-	width: 940px;
-	margin: 0 auto;
+    width: 940px;
+    margin: 0 auto;
 }
 
 form {
-	margin: 40px 0;
+    margin: 40px 0;
 }
 
-form label, form p {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
+form label {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
 }
 
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.checkbox {
-	margin: 20px 0;
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
 }
